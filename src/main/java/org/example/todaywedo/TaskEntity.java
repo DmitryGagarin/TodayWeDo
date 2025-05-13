@@ -5,8 +5,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-import java.time.LocalDate;
-
 @Entity
 public class TaskEntity {
 
@@ -17,6 +15,7 @@ public class TaskEntity {
     private String title;
     private String description;
     private String date;
+    private String time;
 
     public Long getId() {
         return id;
@@ -48,5 +47,13 @@ public class TaskEntity {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
     }
 }

@@ -7,7 +7,9 @@ module org.example.todaywedo {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires jakarta.persistence;
+    requires org.hibernate.orm.core;
+    requires java.sql;
 
-    opens org.example.todaywedo to javafx.fxml;
+    opens org.example.todaywedo to javafx.fxml, org.hibernate.orm.core;
     exports org.example.todaywedo;
 }

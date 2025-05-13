@@ -8,7 +8,7 @@
         <properties>
             <!-- PostgreSQL Connection -->
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/todaywedo"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5434/postgres"/>
             <property name="jakarta.persistence.jdbc.user" value="postgres"/>
             <property name="jakarta.persistence.jdbc.password" value="qrrqrr"/>
 
